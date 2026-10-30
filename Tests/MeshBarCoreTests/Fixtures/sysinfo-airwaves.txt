@@ -1,0 +1,121 @@
+Linksys Smart Wi-Fi sysinfo (sanitized fixture, all values invented)
+wireless.ath0.ssid='DemoMesh'
+wireless.ath0.key='not-a-real-key'
+------------- ath0 Settings -------------
+Frequency:2.472GHz
+Banwidth (0=HT 20HMz,1=40HMz,2=80HMz,3=80_80/160MHz): ath0	get_chwidth:1
+Network Mode: ath0	get_mode:11GEHT40MINUS
+------------- ath10 Settings -------------
+Frequency:5.18GHz
+Banwidth (0=HT 20HMz,1=40HMz,2=80HMz,3=80_80/160MHz): ath10	get_chwidth:3
+Network Mode: ath10	get_mode:11AEHT160
+------------- ath30 Settings -------------
+Frequency:5.955GHz
+Banwidth (0=HT 20HMz,1=40HMz,2=80HMz,3=80_80/160MHz): ath30	get_chwidth:5
+Network Mode: ath30	get_mode:11AEHT320
+------------- wifi apstats section -------------
+radio level information of 2.4G:
+Radio Level Stats: wifi0
+Tx Data Packets                 = 1000
+Self BSS chan util              = 12
+OBSS chan util                  = 9
+lithium_cycle_counts:
+lithium_cycle_cnt: Chan NF (BDF averaged NF_dBm) = -93
+lithium_cycle_cnt: Rx Clear Cnt = 1234
+
+radio level information of 5G:
+Radio Level Stats: wifi1
+Self BSS chan util              = 12
+OBSS chan util                  = 35
+lithium_cycle_cnt: Chan NF (BDF averaged NF_dBm) = -95
+
+radio level information of 6G:
+Radio Level Stats: wifi2
+Self BSS chan util              = 0
+OBSS chan util                  = 0
+lithium_cycle_cnt: Chan NF (BDF averaged NF_dBm) = -94
+------------- dfs radar detect section -------------
+Radar: detect on 2.4G:
+Radar: detected 0 radars
+Radar: detect on 5G:
+Radar: detected 2 radars
+Radar: detect on 6GHz:
+Radar: detected 0 radars
+========================== End Of Wi-Fi General Information ==========================
+Channel  89 : 6395    Mhz H HU H80- 87 H160- 79 E EU E80- 87 E160- 79 E320- 63
+Site Survey on 2.4GHz:
+ath0      Scan completed :
+          Cell 01 - Address: 02:00:00:00:24:01
+                    ESSID:"Neighbour-A"
+                    Mode:Master
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=80/94  Signal level=-50 dBm  Noise level=-94 dBm (BDF averaged NF value in dBm)
+                    Encryption key:on
+                    Extra:phy_mode=IEEE80211_MODE_11AXG_HE20
+          Cell 02 - Address: 02:00:00:00:24:02
+                    ESSID:""
+                    Mode:Master
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=40/94  Signal level=-72 dBm  Noise level=-94 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11NG_HT20
+          Cell 03 - Address: 02:00:00:00:24:03
+                    ESSID:"Neighbour-B"
+                    Mode:Master
+                    Frequency:2.467 GHz (Channel 12)
+                    Quality=30/94  Signal level=-79 dBm  Noise level=-94 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11G
+          Cell 04 - Address: 7A:11:22:33:44:F1
+                    ESSID:"DemoMesh"
+                    Mode:Master
+                    Frequency:2.442 GHz (Channel 7)
+                    Quality=90/94  Signal level=-47 dBm  Noise level=-94 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11BEG_EHT20
+          Cell 05 - Address: 7E:11:22:33:44:F2
+                    ESSID:"\x00\x00\x00\x00"
+                    Mode:Master
+                    Frequency:2.442 GHz (Channel 7)
+                    Quality=90/94  Signal level=-47 dBm  Noise level=-94 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11BEG_EHT20
+          Cell 06 - Address: 02:00:00:00:24:06
+                    ESSID:"Neighbour-C"
+                    Mode:Master
+                    Frequency:2.472 GHz (Channel 13)
+                    Quality=10/94  Signal level=-86 dBm  Noise level=-94 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11BEG_EHT20
+========================== End Of Wi-Fi Development Debug Information ==========================
+Site Survey on 5GHz:
+ath10     Scan completed :
+          Cell 01 - Address: 02:00:00:00:50:01
+                    ESSID:"Neighbour-D"
+                    Mode:Master
+                    Frequency:5.18 GHz (Channel 36)
+                    Quality=50/94  Signal level=-62 dBm  Noise level=-95 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11AXA_HE160
+          Cell 02 - Address: 02:00:00:00:50:02
+                    ESSID:"Neighbour-E"
+                    Mode:Master
+                    Frequency:5.22 GHz (Channel 44)
+                    Quality=45/94  Signal level=-67 dBm  Noise level=-95 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11AC_VHT80
+          Cell 03 - Address: 02:00:00:00:50:03
+                    ESSID:""
+                    Mode:Master
+                    Frequency:5.22 GHz (Channel 44)
+                    Quality=60/94  Signal level=-53 dBm  Noise level=-95 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11NA_HT20
+          Cell 04 - Address: 02:00:00:00:50:04
+                    ESSID:"Neighbour-F"
+                    Mode:Master
+                    Frequency:5.5 GHz (Channel 100)
+                    Quality=10/94  Signal level=-86 dBm  Noise level=-95 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11BEA_EHT160
+          Cell 05 - Address: 72:11:22:33:44:F9
+                    ESSID:"DemoMesh"
+                    Mode:Master
+                    Frequency:5.18 GHz (Channel 36)
+                    Quality=80/94  Signal level=-48 dBm  Noise level=-95 dBm (BDF averaged NF value in dBm)
+                    Extra:phy_mode=IEEE80211_MODE_11BEA_EHT160
+Site Survey on 6GHz:
+ath30     No scan results
+
+========================== End Of Wi-Fi Development Debug Information ==========================

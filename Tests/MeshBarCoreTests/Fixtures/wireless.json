@@ -1,0 +1,23 @@
+{
+  "nodeWirelessConnections": [
+    {
+      "deviceID": "node-hall",
+      "connections": [
+        {
+          "macAddress": "02:11:22:00:00:21",
+          "ipAddress": "192.168.1.21",
+          "negotiatedMbps": "780",
+          "timestamp": "2024-06-01T12:00:01Z",
+          "wireless": {
+            "band": "5GHz",
+            "signalDecibels": -48,
+            "radioID": "RADIO_5GHz"
+          },
+          "txRate": 866,
+          "rxRate": 600,
+          "isMLOCapable": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+name: New model support
+description: MeshBar misreads a Linksys model that is not in the tested table
+labels: [model-support]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Router model
+      placeholder: MX4200
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+    validations:
+      required: true
+  - type: textarea
+    id: nodes
+    attributes:
+      label: Node models in the mesh
+      description: Router plus each extender.
+    validations:
+      required: true
+  - type: textarea
+    id: broken
+    attributes:
+      label: What looks wrong
+      description: Missing nodes, wrong parent, speed always empty, RSSI ignored, WAN stuck, reboot hit the wrong target, and so on.
+    validations:
+      required: true
+  - type: textarea
+    id: samples
+    attributes:
+      label: Redacted samples
+      description: |
+        If you can, paste redacted `output` JSON for GetDevices3 and GetBackhaulInfo2.
+        Strip passwords, serial numbers, MAC addresses, BSSIDs, SSIDs, and WAN addresses.
+        Field names are the useful part.
+    validations:
+      required: false

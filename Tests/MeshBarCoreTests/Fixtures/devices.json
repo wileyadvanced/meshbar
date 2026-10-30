@@ -1,0 +1,108 @@
+{
+  "revision": 42,
+  "devices": [
+    {
+      "deviceID": "node-router",
+      "friendlyName": "Router",
+      "nodeType": "Master",
+      "isAuthority": true,
+      "futureNodeField": "ignore-me",
+      "model": {
+        "deviceType": "Infrastructure",
+        "manufacturer": "Linksys",
+        "modelNumber": "M62CF-EU",
+        "hardwareVersion": "1",
+        "description": "Pinnacle 2.2",
+        "unexpectedModelField": true
+      },
+      "unit": {
+        "serialNumber": "DEMO-M62-0001",
+        "firmwareVersion": "1.2.4",
+        "firmwareDate": "2024-05-01T00:00:00Z"
+      },
+      "knownInterfaces": [
+        {"macAddress": "02:11:22:00:00:01", "interfaceType": "Wired"}
+      ],
+      "connections": [
+        {
+          "macAddress": "02:11:22:00:00:01",
+          "ipAddress": "192.168.1.1",
+          "isGuest": false
+        }
+      ],
+      "properties": [
+        {"name": "userDeviceName", "value": "Living Room"}
+      ]
+    },
+    {
+      "deviceID": "node-hall",
+      "nodeType": "Slave",
+      "model": {"manufacturer": "Linksys", "modelNumber": "M60CF-EU", "hardwareVersion": "1"},
+      "unit": {"serialNumber": "DEMO-M60-0002", "firmwareVersion": "1.2.4"},
+      "knownInterfaces": [
+        {"macAddress": "02:11:22:00:00:02", "interfaceType": "Wireless", "band": "5GHz"}
+      ],
+      "connections": [
+        {
+          "macAddress": "02:11:22:00:00:02",
+          "ipAddress": "192.168.1.2",
+          "parentDeviceID": "node-router",
+          "isGuest": false
+        }
+      ],
+      "properties": [
+        {"name": "userDeviceName", "value": "Hallway"}
+      ]
+    },
+    {
+      "deviceID": "node-weak",
+      "nodeType": "slave",
+      "model": {"manufacturer": "Linksys", "modelNumber": "M60CF-EU"},
+      "unit": {"serialNumber": "DEMO-M60-0003", "firmwareVersion": "1.2.4"},
+      "connections": [
+        {"macAddress": "02:11:22:00:00:03", "ipAddress": "192.168.1.3", "parentDeviceID": "node-hall"}
+      ],
+      "properties": [
+        {"name": "userDeviceName", "value": "Garden Room"}
+      ]
+    },
+    {
+      "deviceID": "node-offline",
+      "nodeType": "Slave",
+      "model": {"manufacturer": "Linksys", "modelNumber": "M60CF-EU"},
+      "unit": {"serialNumber": "DEMO-M60-0009", "firmwareVersion": "1.2.4"},
+      "connections": [],
+      "properties": [
+        {"name": "userDeviceName", "value": "Spare Room"}
+      ]
+    },
+    {
+      "deviceID": "client-laptop",
+      "friendlyName": "computer",
+      "model": {"deviceType": "Computer", "manufacturer": "Example"},
+      "knownInterfaces": [
+        {"macAddress": "02-11-22-00-00-21", "interfaceType": "Wireless", "band": "5GHz"}
+      ],
+      "connections": [
+        {
+          "macAddress": "02:11:22:00:00:21",
+          "ipAddress": "192.168.1.21",
+          "parentDeviceID": "node-hall",
+          "isGuest": false
+        }
+      ],
+      "properties": [
+        {"name": "userDeviceName", "value": "Study Laptop"}
+      ]
+    },
+    {
+      "deviceID": "client-printer",
+      "friendlyName": "Printer",
+      "knownInterfaces": [
+        {"macAddress": "02:11:22:00:00:22", "interfaceType": "Wireless"}
+      ],
+      "connections": [],
+      "properties": []
+    }
+  ]
+}

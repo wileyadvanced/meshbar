@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleExecutable</key>
+    <string>MeshBar</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.meshbar.app</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>MeshBar</string>
+    <key>CFBundleDisplayName</key>
+    <string>MeshBar</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026 Michael Wiley. MIT License.</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>MeshBar connects to your Linksys router on the local network to read mesh status.</string>
+    <key>NSLocationUsageDescription</key>
+    <string>macOS only shares nearby Wi-Fi network names with apps allowed to use Location. MeshBar uses them to label the networks around your mesh when you scan from this Mac. Your location is never read or stored.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>macOS only shares nearby Wi-Fi network names with apps allowed to use Location. MeshBar uses them to label the networks around your mesh when you scan from this Mac. Your location is never read or stored.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.meshbar.app</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>meshbar</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+    </dict>
+</dict>
+</plist>

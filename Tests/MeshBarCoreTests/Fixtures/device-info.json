@@ -1,0 +1,11 @@
+{
+  "deviceName": "Linksys-Demo",
+  "manufacturer": "Linksys",
+  "modelNumber": "M62CF-EU",
+  "hardwareVersion": "1",
+  "description": "Pinnacle 2.2",
+  "serialNumber": "DEMO-M62-0001",
+  "firmwareVersion": "1.2.4",
+  "firmwareDate": "2024-05-01T00:00:00Z",
+  "services": ["http://linksys.com/jnap/core/Core"]
+}

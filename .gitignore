@@ -1,0 +1,13 @@
+.DS_Store
+.build/
+.swiftpm/
+Package.resolved
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+dist/
+.idea/
+*.pem
+*.p12
+.env

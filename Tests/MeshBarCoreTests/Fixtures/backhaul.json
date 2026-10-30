@@ -1,0 +1,30 @@
+{
+  "backhaulDevices": [
+    {
+      "deviceUUID": "node-hall",
+      "ipAddress": "192.168.1.2",
+      "parentIPAddress": "192.168.1.1",
+      "parentDeviceUUID": "node-router",
+      "connectionType": "Wireless",
+      "speedMbps": "866",
+      "timestamp": "2024-06-01T12:00:00Z",
+      "wirelessConnectionInfo": {
+        "stationRSSI": -55,
+        "band": "5GHz",
+        "channel": 36,
+        "apBSSID": "02:11:22:00:00:01",
+        "extraRadioStat": 1
+      }
+    },
+    {
+      "deviceUUID": "node-weak",
+      "ipAddress": "192.168.1.3",
+      "parentDeviceID": "node-hall",
+      "connectionType": "wireless",
+      "speedMbps": 80,
+      "wirelessConnectionInfo": {
+        "stationRSSI": "-74"
+      }
+    }
+  ]
+}

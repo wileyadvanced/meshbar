@@ -1,0 +1,14 @@
+{
+  "wanStatus": "Connected",
+  "macAddress": "02:11:22:00:00:FF",
+  "detectedWANType": "DHCP",
+  "wanConnection": {
+    "wanType": "DHCP",
+    "ipAddress": "203.0.113.10",
+    "gateway": "203.0.113.1",
+    "dnsServer1": "203.0.113.2",
+    "dnsServer2": "203.0.113.3",
+    "mtu": 1500
+  },
+  "supportedWANTypes": ["DHCP", "Static", "PPPoE"]
+}

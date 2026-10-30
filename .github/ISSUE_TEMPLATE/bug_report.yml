@@ -1,0 +1,57 @@
+name: Bug report
+description: Something is wrong on a specific router or Mac
+labels: [bug]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Router model
+      description: The model printed on the unit, for example M62CF-EU.
+      placeholder: M62CF-EU
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      placeholder: 1.2.4
+    validations:
+      required: true
+  - type: textarea
+    id: extenders
+    attributes:
+      label: Extender models
+      description: Models of the child nodes, if any.
+      placeholder: M60CF-EU
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: 14.6
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Demo mode or a live router?
+      options:
+        - Live router
+        - Demo mode
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, and what MeshBar did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: jnap
+    attributes:
+      label: Redacted JNAP snippet
+      description: Optional. Paste only the output object of the action that parsed wrong. Delete passwords, serial numbers, MAC addresses, SSIDs, and public IPs first.
+    validations:
+      required: false

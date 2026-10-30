@@ -1,0 +1,22 @@
+{
+  "radios": [
+    {
+      "radioID": "RADIO_2.4GHz",
+      "settings": {
+        "isEnabled": true,
+        "ssid": "ExampleMesh",
+        "channel": 6,
+        "channelWidth": "20MHz",
+        "security": "WPA2/WPA3-Personal",
+        "wpaPersonalSettings": {"passphrase": "should-not-be-stored"}
+      }
+    },
+    {
+      "radioID": "RADIO_5GHz",
+      "isEnabled": true,
+      "ssid": "ExampleMesh",
+      "channel": 0,
+      "channelWidth": "80MHz"
+    }
+  ]
+}

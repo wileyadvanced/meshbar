@@ -1,0 +1,17 @@
+{
+  "healthCheckResults": [
+    {
+      "timestamp": "2024-06-01T12:00:00Z",
+      "healthCheckModule": "SpeedTest",
+      "resultID": 7,
+      "speedTestResult": {
+        "latency": 14,
+        "downloadBandwidth": 450000,
+        "uploadBandwidth": 38000,
+        "exitCode": "Success",
+        "resultID": 7,
+        "serverID": "demo-server"
+      }
+    }
+  ]
+}

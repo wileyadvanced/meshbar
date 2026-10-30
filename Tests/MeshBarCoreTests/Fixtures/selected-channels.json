@@ -1,0 +1,5 @@
+{"isRunning":false,"selectedChannels":[
+ {"deviceID":"aaaaaaaa-0000-4000-8000-000000000001","channels":[{"band":"2.4GHz","radioID":"RADIO_2.4GHz","channel":13},{"band":"5GHz","radioID":"RADIO_5GHz","channel":36},{"band":"6GHz","radioID":"RADIO_6GHz","channel":1}]},
+ {"deviceID":"aaaaaaaa-0000-4000-8000-000000000002","channels":[{"band":"2.4GHz","radioID":"RADIO_2.4GHz","channel":7},{"band":"5GHz","radioID":"RADIO_5GHz","channel":36}]},
+ {"deviceID":"aaaaaaaa-0000-4000-8000-000000000003","channels":[{"band":"2.4GHz","radioID":"RADIO_2.4GHz","channel":0}]}
+]}
